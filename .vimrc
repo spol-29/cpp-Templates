@@ -72,5 +72,5 @@ set noswapfile
 set showmatch
 set history=100
 
-"From William Lin(tmwilliamlin168)
-"For windows Computer
+"Partially Derived From William Lin(tmwilliamlin168)
+"For Windows Computer

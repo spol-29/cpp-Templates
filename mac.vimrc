@@ -15,3 +15,4 @@ inoremap {<CR> {<CR>}<Esc>O
 inoremap {{ {
 inoremap {} {}
 set showmatch
+"Change directory depending on preferred file saving location
