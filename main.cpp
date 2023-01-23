@@ -51,20 +51,9 @@ const double e = 2.71828182845904523536;
 #define flt float
 #define ll long long
 
-typedef vector<int> vi;
-typedef pair<int,int> pii;
-typedef map<int,int> mi;
-
-
-void solve(){
-	
-}
-
-int main(){
-    cin.tie(0); 
-    cout.tie(0);
-    ios_base::sync_with_stdio(false);
-}
+#define vi vector<int>;
+#define pii pair<int,int>;
+#define mi map<int,int>;
 
 void area(int bl_x, int bl_y, int tr_x, int tr_y) {
 	long long length = tr_y - bl_y;
@@ -121,5 +110,16 @@ void equiperim(int s, int hs){
 
 void perim(int s1, int s2, int s3, int s4){
 	write s1+s2+s3+s4 end
+}
+
+void solve(){
+	
+}
+
+int main(){
+    cin.tie(0); 
+    cout.tie(0);
+    ios_base::sync_with_stdio(false);
+    solve();
 }
 
