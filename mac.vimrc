@@ -9,10 +9,10 @@ set ts=4
 set sw=4
 set si
 cd ~Documents/vimws
-
+"Change directory depending on preferred file saving location
 inoremap { {}<Left>
 inoremap {<CR> {<CR>}<Esc>O
 inoremap {{ {
 inoremap {} {}
 set showmatch
-"Change directory depending on preferred file saving location
+
