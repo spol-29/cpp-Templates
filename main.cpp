@@ -55,6 +55,10 @@ const double e = 2.71828182845904523536;
 #define pii pair<int,int>;
 #define mi map<int,int>;
 
+void solve(){
+	
+}
+
 void area(int bl_x, int bl_y, int tr_x, int tr_y) {
 	long long length = tr_y - bl_y;
 	long long width = tr_x - bl_x;
@@ -112,9 +116,7 @@ void perim(int s1, int s2, int s3, int s4){
 	write s1+s2+s3+s4 end
 }
 
-void solve(){
-	
-}
+
 
 int main(){
     cin.tie(0); 
