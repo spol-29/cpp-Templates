@@ -55,6 +55,11 @@ const double e = 2.71828182845904523536;
 #define pii pair<int,int>;
 #define mi map<int,int>;
 
+void setIO(string s) {
+	freopen((s+".in").c_str(),"r",stdin);
+	freopen((s+".out").c_str(),"w",stdout);
+}
+
 void solve(){
 	
 }
@@ -119,6 +124,7 @@ void perim(int s1, int s2, int s3, int s4){
 
 
 int main(){
+	setIO("s");
     cin.tie(0); 
     cout.tie(0);
     ios_base::sync_with_stdio(false);
