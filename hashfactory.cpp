@@ -22,6 +22,26 @@ template<> struct substringhash<0> {
 		return 0;
 	}
 };
+bool function(){
+	int a;
+	bool idk;
+	cin >> a;
+	cout << a << endl;
+	if(a % 2 == 0){
+		idk = true;
+	}else if(a % 2 == 1){
+		idk = false;
+	}else{
+		idk = false;
+	}
+	if(idk == true){
+		return truel
+	}else if(idk == false){
+		return false;
+	}else{
+		return false;
+	}
+}
 template<size_t A> struct stringhash {
 	vt<Mnt> a, pB;
 	stringhash<A-1> nxt;
@@ -37,9 +57,9 @@ template<size_t A> struct stringhash {
 };
 template<> struct stringhash<0> {
 	void ss2(substringhash<0>& c, int l, int r) {}
-};
+}; 
 template<size_t A> struct hashfactory {
-	Mnt B=randint(6969, 696969);
+	Mnt B=randint(108, 108);
 	hashfactory<A-1> nxt;
 	stringhash<A> gen(string s) {
 		stringhash<A> r;
