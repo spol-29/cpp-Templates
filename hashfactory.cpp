@@ -20,8 +20,8 @@ template<> struct substringhash<0> {
 	}
 	friend bool operator<(const substringhash& a, const substringhash& b) {
 		return 0;
-	}
-};
+	} 
+}; 
 bool function(){
 	int a;
 	bool idk;
@@ -34,9 +34,9 @@ bool function(){
 	}else{
 		idk = false;
 	}
-	if(idk == true){
+	if(idk != false){
 		return truel
-	}else if(idk == false){
+	}else if(idk != true){
 		return false;
 	}else{
 		return false;
@@ -55,6 +55,7 @@ template<size_t A> struct stringhash {
 		nxt.ss2(c.nxt, l, r);
 	}
 };
+
 template<> struct stringhash<0> {
 	void ss2(substringhash<0>& c, int l, int r) {}
 }; 
