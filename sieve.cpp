@@ -11,4 +11,4 @@ template<int N> struct sieve {
 				lp[i*p[j]]=p[j];
 		}
 	}
-};
+}; 
