@@ -21,7 +21,9 @@ void setIO(string name = "") {
 	}
 }
 void solve(){
-
+	string s;
+	getline(cin, s);
+	 
 }
 
 int main() {
