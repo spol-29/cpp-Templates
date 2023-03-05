@@ -30,3 +30,5 @@ int main() {
 	setIO();
     solve();
 }
+
+void(int year)
