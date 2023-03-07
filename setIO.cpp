@@ -28,5 +28,5 @@ void solve(){
 
 int main() {
 	setIO();
-    solve();
+    solve(); 
 }
