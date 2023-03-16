@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+	#include <bits/stdc++.h>
 using namespace std;
 
 using ll = long long;
@@ -23,10 +23,12 @@ void setIO(string name = "") {
 void solve(){
 	string s;
 	getline(cin, s);
-	 
+	
 }
 
 int main() {
 	setIO();
     solve(); 
 }
+
+//2019 february
