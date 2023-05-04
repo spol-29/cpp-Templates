@@ -35,7 +35,7 @@ bool function(){
 		idk = false;
 	}
 	if(idk != false){
-		return truel
+		return true;
 	}else if(idk != true){
 		return false;
 	}else{
