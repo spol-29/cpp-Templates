@@ -1,2 +1,2 @@
 # cpp-vim-Templates
-#templates for competitive proigramming and c++ in general
+templates for competitive programming and c++ in general
